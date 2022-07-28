@@ -27,7 +27,7 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Courses</a>
+                    <a class="nav-link"  href="#course">Courses</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link">Deals</a>
@@ -101,7 +101,7 @@
      <main>
 
 <!-- course section start here -->
-<section class="container my-5">
+<section id="course" class="container my-5">
     <div class="text-center mb-5">
         <h1>Discover Our Popular Courses</h1>
         <p>
@@ -410,9 +410,85 @@
             </div>
           </div>
     </div>
+    <div class="text-center"><a class="btn bg-info text-center" href="#">View All</a></div>
 </section>
 <!-------students feedback sec end----->
 
+<!----------queston section start--------->
+<section class="container">
+    <div class="text-center py-5">
+        <h1>Frequently Asked Questions</h1>
+        <p>
+            We asked you some question from course related. Dont be scared.
+        </p>
+    </div>
+    <!-- acordion -->
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                difference between the use off id selector and class selector?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <strong> Ans: The Main difference between ID and class selectors is ID selectors are unique</strong> to each of the element on a webpage whereas Class selectors don't have to be unique. To be clear using ID selectors we can apply styling to a single element with that particular ID.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                what is javascript?
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <strong>JavaScript, often abbreviated JS,</strong> is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. As of 2022, 98% of websites use JavaScript on the client side for web page behavior, often incorporating third-party libraries
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                what do you understand by the universal selector?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <strong>The Universal Selector is the</strong> * in CSS. Literally the asterisk character. It is essentially a type selector that matches any type. Type meaning an HTML tag like div, buttton, body or literally any of the others.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" 
+         data-bs-toggle="collapse" data-bs-target="#collapseThree" 
+         aria-expanded="false" aria-controls="collapseThree">
+              What is react?
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" 
+         aria-labelledby="headingThree" 
+         data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                  <strong>React is a free and open-source front-end </
+                    strong> JavaScript library for building user 
+                    interfaces based on UI components. It is maintained by 
+                    Meta and a community of individual developers and 
+                    companies.
+              </div>
+            </div>
+          </div>
+      </div>
+    <!-- acordion-->
+</section>
+<!----------queston section end--------->
+
+
+<!---------footer start--------->
+
+<!---------footer end--------->
 
 
 
